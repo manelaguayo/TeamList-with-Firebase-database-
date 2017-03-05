@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="loading">Carregant...</string>
+    <string name="signed_in_fmt">Loguejat com %s</string>
+    <string name="signed_out">Desconnectat..</string>
+    <string name="webkey">258798031978-fc88g4plk5u2ncdafgq2h1j340o2t2l4.apps.googleusercontent.com</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">367760323598871</string>
+
+    <string name="dialog_new_todo">Nou equip</string>
+    <string name="dialog_new_todo_create">Crear</string>
+    <string name="dialog_new_todo_cancel">Cancelar</string>
+
+    <string name="opengallery">Obrir la galería</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

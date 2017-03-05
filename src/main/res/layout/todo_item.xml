@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    cardview:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:id="@+id/logoImage" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text=""
+                android:textAppearance="@android:style/TextAppearance.Material.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/teamTitle" />
+
+            <TextView
+                android:text=""
+                android:textAppearance="@android:style/TextAppearance.Material.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/urlTeam" />
+
+         </LinearLayout>
+
+    </LinearLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
